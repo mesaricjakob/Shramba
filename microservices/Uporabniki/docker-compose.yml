@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  uporabniki:
+    image: ${DOCKER_REGISTRY-}uporabniki
+    build:
+      context: .
+      dockerfile: Uporabniki/Dockerfile
