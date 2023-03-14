@@ -72,15 +72,19 @@ namespace Uporabniki.Controllers
 
 
         // Izbriši uporabnika
-        [Route("/api/delete/{id}")]
+        [Route("/api/delete/{email}:{geslo}")]
         [HttpDelete]
-        public string DeleteUser(string id)
+        public string DeleteUser(string email, string geslo)
         {
             System.Diagnostics.Debug.WriteLine("Klican delete api endpoint");
-            var filter = Builders<Uporabnik>.Filter.Eq("_id", id);
+            var filter = Builders<Uporabnik>.Filter.And(
+                Builders<Uporabnik>.Filter.Eq("email", email),
+                Builders<Uporabnik>.Filter.Eq("geslo", geslo)
+                );
+
             collection.DeleteOne(filter);
 
-            return "Uporabnik izbrisan";
+            return "Izbris OK";
         }
 
     }

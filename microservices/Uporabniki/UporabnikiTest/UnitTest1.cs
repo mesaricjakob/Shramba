@@ -46,4 +46,14 @@ public class UnitTest1
         // Assert
         Assert.AreEqual("Uporabnik registriran", result);
     }
+
+    [TestMethod]
+    public void TestDeleteUser()
+    {
+        // Act
+        var result = _controller.DeleteUser("test@example.com", "test123");
+
+        // Assert
+        Assert.AreEqual("Izbris OK", result);
+    }
 }
