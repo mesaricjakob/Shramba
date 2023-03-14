@@ -32,3 +32,6 @@ jobs:
     - name: Test
       run: dotnet test --no-build --verbosity normal
       working-directory: microservices/Uporabniki/Uporabniki
+    - name: Test2
+      run: dotnet test --no-build --verbosity normal
+      working-directory: microservices/Uporabniki/UporabnikiTest
