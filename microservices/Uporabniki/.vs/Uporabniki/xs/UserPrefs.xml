@@ -2,20 +2,21 @@
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.ItemProperties.Uporabniki PreferredExecutionTarget="/System/Volumes/Preboot/Cryptexes/App/System/Applications/Safari.app" />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="UporabnikiTest/UnitTest1.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Uporabniki/Controllers/UporabnikController.cs">
     <Files>
-      <File FileName="Uporabniki/Controllers/UporabnikController.cs" Line="28" Column="1" />
-      <File FileName="Uporabniki/Models/Uporabnik.cs" Line="33" Column="16" />
+      <File FileName="Uporabniki/Controllers/UporabnikController.cs" Line="75" Column="29" />
+      <File FileName="Uporabniki/Models/Uporabnik.cs" />
       <File FileName="UporabnikiTest/UnitTest1.cs" Line="48" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="Uporabniki" expanded="True">
-            <Node name="Solution Items" expanded="True" />
             <Node name="Uporabniki" expanded="True">
               <Node name="Dependencies" expanded="True" />
-              <Node name="Controllers" expanded="True" />
+              <Node name="Controllers" expanded="True">
+                <Node name="UporabnikController.cs" selected="True" />
+              </Node>
               <Node name="Models" expanded="True" />
               <Node name="Properties" expanded="True" />
             </Node>
@@ -25,13 +26,7 @@
       </Pad>
       <Pad Id="MonoDevelop.UnitTesting.TestPad">
         <State name="__root__">
-          <Node name="Uporabniki" expanded="True">
-            <Node name="UporabnikiTest" expanded="True" selected="True">
-              <Node name="UporabnikiTest" expanded="True">
-                <Node name="UnitTest1" expanded="True" />
-              </Node>
-            </Node>
-          </Node>
+          <Node name="Uporabniki" expanded="True" selected="True" />
         </State>
       </Pad>
     </Pads>
