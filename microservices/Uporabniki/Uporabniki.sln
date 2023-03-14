@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 25.0.1705.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Uporabniki", "Uporabniki\Uporabniki.csproj", "{E41DE489-BEED-48E4-B47E-C63BD019EEAB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{0D0D45AB-C850-4606-A2F8-7725B818726B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UporabnikiTest", "UporabnikiTest\UporabnikiTest.csproj", "{FB202226-FB7B-4531-BE2B-A7CDC1374255}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E41DE489-BEED-48E4-B47E-C63BD019EEAB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E41DE489-BEED-48E4-B47E-C63BD019EEAB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E41DE489-BEED-48E4-B47E-C63BD019EEAB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E41DE489-BEED-48E4-B47E-C63BD019EEAB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FB202226-FB7B-4531-BE2B-A7CDC1374255}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FB202226-FB7B-4531-BE2B-A7CDC1374255}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FB202226-FB7B-4531-BE2B-A7CDC1374255}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FB202226-FB7B-4531-BE2B-A7CDC1374255}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {70BB2153-DFA4-4066-AF98-DDA44918F3FE}
+	EndGlobalSection
+EndGlobal
