@@ -20,7 +20,13 @@ jobs:
     - name: Restore dependencies
       run: dotnet restore
       working-directory: microservices/Uporabniki/Uporabniki
+    - name: Restore dependencies2
+      run: dotnet restore
+      working-directory: microservices/Uporabniki/UporabnikiTest
     - name: Build
+      run: dotnet build --no-restore
+      working-directory: microservices/Uporabniki/Uporabniki
+    - name: Build2
       run: dotnet build --no-restore
       working-directory: microservices/Uporabniki/Uporabniki
     - name: Test
