@@ -16,13 +16,13 @@ jobs:
       uses: actions/setup-dotnet@v3
       with:
         dotnet-version: 6.0.x
-        working-directory: microservices/Uporabniki
+        working-directory: microservices/Uporabniki/Uporabniki
     - name: Restore dependencies
       run: dotnet restore
-      working-directory: microservices/Uporabniki
+      working-directory: microservices/Uporabniki/Uporabniki
     - name: Build
       run: dotnet build --no-restore
-      working-directory: microservices/Uporabniki
+      working-directory: microservices/Uporabniki/Uporabniki
     - name: Test
       run: dotnet test --no-build --verbosity normal
-      working-directory: microservices/Uporabniki
+      working-directory: microservices/Uporabniki/Uporabniki
