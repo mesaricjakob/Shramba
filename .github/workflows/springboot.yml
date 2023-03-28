@@ -18,7 +18,10 @@ jobs:
       with:
         java-version: '17'
         distribution: 'adopt'
-
+    
+    - name: Move to demo folder
+      run: cd demo
+      
     - name: Grant execute permission for gradlew
       run: chmod +x gradlew
 
