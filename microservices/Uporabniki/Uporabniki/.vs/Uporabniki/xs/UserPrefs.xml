@@ -1,35 +1,36 @@
-﻿<Properties StartupConfiguration="{E41DE489-BEED-48E4-B47E-C63BD019EEAB}|http">
+﻿<Properties StartupConfiguration="{73095C71-E354-40F7-BAB7-CB5602ED8528}|http">
   <MonoDevelop.Ide.ItemProperties.Uporabniki PreferredExecutionTarget="/System/Volumes/Preboot/Cryptexes/App/System/Applications/Safari.app" />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.Workbench ActiveDocument="Uporabniki/Dockerfile">
+  <MonoDevelop.Ide.Workbench ActiveDocument="appsettings.Development.json">
     <Files>
-      <File FileName="Uporabniki/Controllers/UporabnikController.cs" />
-      <File FileName="Uporabniki/Models/Uporabnik.cs" />
-      <File FileName="UporabnikiTest/UnitTest1.cs" />
-      <File FileName="Uporabniki/Dockerfile" Line="14" Column="31" />
+      <File FileName="Properties/launchSettings.json" Line="1" Column="1" />
+      <File FileName="appsettings.json" Line="1" Column="1" />
+      <File FileName="appsettings.Development.json" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="Uporabniki" expanded="True" selected="True">
+          <Node name="Uporabniki" expanded="True">
             <Node name="Uporabniki" expanded="True">
               <Node name="Dependencies" expanded="True">
                 <Node name="FrameworkReferences" expanded="True" />
+                <Node name="PackageDependencies" expanded="True" />
               </Node>
               <Node name="Controllers" expanded="True" />
               <Node name="Models" expanded="True" />
               <Node name="Properties" expanded="True" />
+              <Node name="appsettings.json" expanded="True">
+                <Node name="appsettings.Development.json" selected="True" />
+              </Node>
             </Node>
-            <Node name="UporabnikiTest" expanded="True" />
           </Node>
         </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
   <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.ItemProperties.docker-compose PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
 </Properties>

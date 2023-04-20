@@ -1,0 +1,28 @@
+syntax = "proto3";
+
+package product;
+
+service ProductService {
+    rpc GetAllProducts (Empty) returns (ProductList);
+    rpc AddProduct (Product) returns (ProductID);
+    rpc UpdateProduct (Product) returns (Product);
+    rpc DeleteProduct (ProductID) returns (Product);
+}
+
+message Empty {}
+
+message Product {
+    string id = 1;
+    string naziv = 2;
+    string kolicina = 3;
+    string enota = 4;
+    string lokacija = 5;
+}
+
+message ProductID {
+    string id = 1;
+}
+
+message ProductList {
+    repeated Product products = 1;
+}
