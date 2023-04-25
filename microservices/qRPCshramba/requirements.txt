@@ -1,0 +1,6 @@
+grpcio==1.41.1
+grpcio-tools==1.41.1
+pymongo[srv,tls]==3.12.1
+stomp.py==7.0.0
+certifi==2021.10.8
+pika==1.2.0
