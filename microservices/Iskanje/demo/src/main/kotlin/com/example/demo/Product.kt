@@ -8,6 +8,6 @@ class Product(
     @Id var _id: String,
     var naziv: String,
     var kolicina: Double,
-    var enota_kolicine: String,
+    var enota: String,
     var lokacija: String
 )

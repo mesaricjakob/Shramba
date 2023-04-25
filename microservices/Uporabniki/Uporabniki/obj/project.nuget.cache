@@ -1,13 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "HyuP+7MzGnhUqeCo8t2hCvwrCqOtzhcr9jIbaURpvTQu6aKverjn1GX4W0ezQ0NyfbuB2e0NieuTGYQ7uFuhgA==",
+  "dgSpecHash": "4gIojRXs3/XNUCDPQzdGCvJqAWwv9beTOs5DNy5zL7T5h9PUx+auA6QYNTgAQv3VswNwiu77Uf7DwmEdyNarcA==",
   "success": true,
   "projectFilePath": "/Users/jakam/Desktop/ITA/Shramba/microservices/Uporabniki/Uporabniki/Uporabniki.csproj",
   "expectedPackageFiles": [
     "/Users/jakam/.nuget/packages/awssdk.core/3.7.100.14/awssdk.core.3.7.100.14.nupkg.sha512",
     "/Users/jakam/.nuget/packages/awssdk.securitytoken/3.7.100.14/awssdk.securitytoken.3.7.100.14.nupkg.sha512",
     "/Users/jakam/.nuget/packages/dnsclient/1.6.1/dnsclient.1.6.1.nupkg.sha512",
-    "/Users/jakam/.nuget/packages/microsoft.aspnetcore.openapi/7.0.3/microsoft.aspnetcore.openapi.7.0.3.nupkg.sha512",
+    "/Users/jakam/.nuget/packages/microsoft.aspnetcore.openapi/7.0.5/microsoft.aspnetcore.openapi.7.0.5.nupkg.sha512",
     "/Users/jakam/.nuget/packages/microsoft.extensions.apidescription.server/6.0.5/microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
     "/Users/jakam/.nuget/packages/microsoft.extensions.logging.abstractions/2.0.0/microsoft.extensions.logging.abstractions.2.0.0.nupkg.sha512",
     "/Users/jakam/.nuget/packages/microsoft.netcore.platforms/5.0.0/microsoft.netcore.platforms.5.0.0.nupkg.sha512",

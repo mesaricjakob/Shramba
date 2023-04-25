@@ -8,7 +8,7 @@
     ".NETCoreApp,Version=v7.0": {
       "Uporabniki/1.0.0": {
         "dependencies": {
-          "Microsoft.AspNetCore.OpenApi": "7.0.3",
+          "Microsoft.AspNetCore.OpenApi": "7.0.5",
           "MongoDB.Driver": "2.19.0",
           "Newtonsoft.Json": "13.0.3",
           "RestSharp": "109.0.1",
@@ -48,14 +48,14 @@
           }
         }
       },
-      "Microsoft.AspNetCore.OpenApi/7.0.3": {
+      "Microsoft.AspNetCore.OpenApi/7.0.5": {
         "dependencies": {
           "Microsoft.OpenApi": "1.4.3"
         },
         "runtime": {
           "lib/net7.0/Microsoft.AspNetCore.OpenApi.dll": {
-            "assemblyVersion": "7.0.3.0",
-            "fileVersion": "7.0.323.8009"
+            "assemblyVersion": "7.0.5.0",
+            "fileVersion": "7.0.523.17410"
           }
         }
       },
@@ -261,12 +261,12 @@
       "path": "dnsclient/1.6.1",
       "hashPath": "dnsclient.1.6.1.nupkg.sha512"
     },
-    "Microsoft.AspNetCore.OpenApi/7.0.3": {
+    "Microsoft.AspNetCore.OpenApi/7.0.5": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-nihfseI7Jpaogc5bPAbta17sFzhyXwwC74xAhOyc6cgqriJQ2eB4TcJsAi4NePT2q+pFfEAtSCgPXw4IdJOF0w==",
-      "path": "microsoft.aspnetcore.openapi/7.0.3",
-      "hashPath": "microsoft.aspnetcore.openapi.7.0.3.nupkg.sha512"
+      "sha512": "sha512-yxFvk9BsgL/eDJVsPp0zbUpL73u9uXLYTnWoMBvnJdm8+970YuhM2XWcDOyetjkp8l8z00MHgfYHCRXOnLx/+Q==",
+      "path": "microsoft.aspnetcore.openapi/7.0.5",
+      "hashPath": "microsoft.aspnetcore.openapi.7.0.5.nupkg.sha512"
     },
     "Microsoft.Extensions.ApiDescription.Server/6.0.5": {
       "type": "package",

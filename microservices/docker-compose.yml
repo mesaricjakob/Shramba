@@ -23,7 +23,7 @@ services:
       - "15672:15672"
 
   grpc-server:
-    build: .
+    build: ./qRPCshramba  
     container_name: grpc-server
     environment:
       - MONGO_URI=mongodb://root:example@mongodb:27017
@@ -32,6 +32,18 @@ services:
     depends_on:
       - mongodb
       - rabbitmq
+  
+  iskanje:
+    build: ./iskanje/demo
+    container_name: iskanje
+    ports:
+      - "8081:8081"
+
+  shramba:
+    build: ./shramba
+    container_name: shramba
+    ports:
+      - "8080:8080"
 
 volumes:
   mongodb_data:
