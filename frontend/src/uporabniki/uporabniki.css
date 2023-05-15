@@ -1,0 +1,28 @@
+.glavno {
+    display: flex;
+    height: 100vh;
+
+}
+.two-thirds {
+    margin-top: 30px;
+    flex: 2;
+    padding: 20px;
+    box-sizing: border-box;
+}
+.one-third {
+    margin-top: 30px;
+    flex: 1;
+    padding: 20px;
+    box-sizing: border-box;
+}
+th {
+    background-color: #f2f2f2;
+}
+.viden
+{
+    visibility: visible;
+}
+.skrit
+{
+    visibility: hidden;
+}

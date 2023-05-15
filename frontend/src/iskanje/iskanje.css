@@ -1,0 +1,24 @@
+.glavno {
+    display: flex;
+    height: 100vh;
+    padding-top: 30px;
+}
+.two-thirds {
+    flex: 2;
+    padding: 20px;
+    box-sizing: border-box;
+    margin-top: 30px;
+}
+.one-third {
+    flex: 1;
+    padding: 20px;
+    box-sizing: border-box;
+    margin-top: 30px;
+}
+.search-container {
+    display: flex;
+    margin-bottom: 20px;
+}
+th {
+    background-color: #f2f2f2;
+}

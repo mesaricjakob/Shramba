@@ -1,16 +1,11 @@
 ﻿<Properties StartupConfiguration="{73095C71-E354-40F7-BAB7-CB5602ED8528}|http">
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Uporabniki PreferredExecutionTarget="/System/Volumes/Preboot/Cryptexes/App/System/Applications/Safari.app" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Dockerfile">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Models/Uporabnik.cs">
     <Files>
+      <File FileName="Dockerfile" />
       <File FileName="Properties/launchSettings.json" />
-      <File FileName="appsettings.json" />
-      <File FileName="appsettings.Development.json" />
-      <File FileName="Dockerfile" Line="6" Column="9" />
-      <File FileName="Uporabniki.csproj" />
-      <File FileName="../../../../../../../../usr/local/share/dotnet/sdk/7.0.201/Sdks/Microsoft.NET.Sdk/targets/Microsoft.PackageDependencyResolution.targets" />
-      <File FileName="Program.cs" />
+      <File FileName="Models/Uporabnik.cs" Line="10" Column="25" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -18,12 +13,12 @@
           <Node name="Uporabniki" expanded="True">
             <Node name="Uporabniki" expanded="True">
               <Node name="Dependencies" expanded="True">
-                <Node name="PackageDependencies" expanded="True">
-                  <Node name="Newtonsoft.Json" selected="True" />
-                </Node>
+                <Node name="PackageDependencies" expanded="True" />
               </Node>
               <Node name="Controllers" expanded="True" />
-              <Node name="Models" expanded="True" />
+              <Node name="Models" expanded="True">
+                <Node name="Uporabnik.cs" selected="True" />
+              </Node>
               <Node name="Properties" expanded="True" />
               <Node name="appsettings.json" expanded="True" />
             </Node>
@@ -32,8 +27,9 @@
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.ItemProperties.Uporabniki PreferredExecutionTarget="/System/Volumes/Preboot/Cryptexes/App/System/Applications/Safari.app" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
 </Properties>
