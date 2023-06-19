@@ -57,5 +57,11 @@ services:
     ports:
       - "3000:3000"
 
+  frontend:
+    build: ../frontend
+    container_name: frontend
+    ports:
+      - "3001:3001"
+      
 volumes:
   mongodb_data:
