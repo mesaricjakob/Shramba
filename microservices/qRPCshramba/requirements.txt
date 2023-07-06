@@ -1,4 +1,4 @@
-grpcio==1.41.1
+grpcio==1.53.0
 grpcio-tools==1.41.1
 pymongo[srv,tls]==3.12.1
 stomp.py==7.0.0
